@@ -6,6 +6,7 @@ cell=sheet.cell(row=1,column=2)
 print(cell.value)
 #To insert data
 sheet.cell(row=2,column=2).value="manoj"
+book.save("C:/Users/manoj.b/PycharmProjects/PythonSelfFramework/testData/Book1.xlsx")
 print(sheet.cell(row=2,column=2).value)
 #to get max row count
 print(sheet.max_row)
