@@ -8,11 +8,11 @@ print(cell.value)
 sheet.cell(row=2,column=2).value="manoj"
 book.save("C:/Users/manoj.b/PycharmProjects/PythonSelfFramework/testData/Book1.xlsx")
 print(sheet.cell(row=2,column=2).value)
-#to get max row count
+#to get max row counts
 print(sheet.max_row)
 #To get max column count
 print(sheet.max_column)
-#other way to get data from sheet
+#other way to get data from sheetfit
 print(sheet['A2'].value)
 print("======================================================")
 
